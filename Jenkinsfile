@@ -11,7 +11,6 @@ pipeline {
             steps {
                 // Get some code from a GitHub repository
                 
-                
                 // Run Maven on a Unix agent.
                 sh "mvn -Dmaven.test.failure.ignore=true clean package"
 
